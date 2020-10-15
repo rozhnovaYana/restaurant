@@ -1,0 +1,137 @@
+header
+    height: 800px
+    background: url("../img/header/header-bg.png") center center/cover no-repeat
+    position: relative
+    h3
+        height: 18.39px
+        font-family: Open Sans
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        text-align: center
+        letter-spacing: 0.5em
+        text-transform: uppercase
+        color: #FFFFFF
+        margin-top: 151px
+    h1
+        font-size: 96px
+        text-transform: uppercase
+        color: #FFFFFF
+        font-family: 'Banny Round'
+        text-align: center
+        margin-top: 14px
+        &::after
+            content: ""
+            display: block
+            width: 60px
+            height: 5.11px
+            background: #E8C300
+            border-radius: 50px
+            margin: 0 auto
+            margin-top: 30px
+    .icon-circle-down
+        font-style: normal
+        font-weight: 900
+        font-size: 50px
+        line-height: 23px
+        background: #FFFFFF
+        color: #333333
+        border-radius: 100%
+
+.header
+    &__table
+        position: absolute
+        width: 698px
+        height: 60px
+        top: 50%
+        left: -20%
+        font-family: Open Sans
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        text-align: center
+        color: #FFFFFF
+        transform: translateY(-50%)
+        transform: rotate(-90deg)
+    &__feed
+        display: flex
+        flex-direction: column
+        width: 60px
+        height: 220px
+        justify-content: space-between
+        position: absolute
+        right: 39px
+        top: 50%
+        transform: translateY(-50%)
+        &_item
+            border-radius: 100%
+            border: solid 0.5px white
+            padding: 20px
+            height: 60px
+            width: 60px
+            display: flex
+            align-items: center
+            justify-content: center
+        &_icon
+            font-style: normal
+            font-weight: normal
+            font-size: 30px
+            color: #FFFFFF
+
+    &__down
+        display: block
+        text-align: center
+        margin: 92px 0
+    &__btns
+        display: flex
+        justify-content: center
+        button
+            background: #E8C300
+            border-radius: 5px
+            font-family: Open Sans
+            font-style: normal
+            font-weight: bold
+            font-size: 12px
+            line-height: 20px
+            color: #FFFFFF
+            width: 200px
+            height: 60px
+            margin-top: 30px
+            &:first-child
+                margin-right: 40px
+    &__menu
+        display: flex
+        justify-content: space-between
+        padding: 0px 80px
+        width: 100%
+        &_img
+            position: absolute
+            top: 25px
+            left: 50%
+            transform: translateX(-50%)
+    &__items
+        display: flex
+        margin: 0
+        padding: 0
+        list-style: none
+        li
+            width: 133px
+            height: 100px
+            left: 80px
+            top: 0px
+            font-family: Open Sans
+            font-style: normal
+            font-weight: bold
+            font-size: 12px
+            display: flex
+            align-items: center
+            text-align: center
+            color: #FFFFFF
+            a
+                text-decoration: none
+                color: #FFFFFF
+                margin: 0 auto
+.menu__wrapper
+    display: flex
+    justify-content: space-between
+    width: 100%

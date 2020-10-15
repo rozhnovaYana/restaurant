@@ -1,0 +1,169 @@
+@media ( max-width:1350px  )
+    .about_us
+        &__imgs
+            margin-left: 40px
+            display: flex
+            justify-content: center
+            align-items: center
+        &__img
+            width: 375px
+            height: 375px
+        &__sqr
+            width: 200px
+        &__text
+            font-size: 16px
+        &__title::after
+            margin: 10px auto
+    .header
+        &__items
+            li
+                width: 100px
+@media ( max-width:1200px  )
+    .header
+        &__items
+            li
+                width: 90px
+        &__table
+            left: -30%
+
+    .about_us
+        height: 575px
+        &__img
+            width: 305px
+            height: 305px
+        &__sqr
+            width: 180px
+        &__text
+            font-size: 14px
+        &__title
+            margin-top: 50px
+@media ( max-width:992px  )
+    .header
+
+        &__items
+            li
+                width: 70px
+        &__menu
+            padding: 0 20px
+    header
+        height: 850px
+    .about_us
+        flex-direction: column
+        align-items: center
+        &__title
+            margin-top: 0px
+
+        &__imgs
+            margin-top: 20px
+        &__descr
+            text-align: center
+@media ( max-width:768px  )
+    .header
+        &__menu
+            flex-direction: column
+
+        &__items
+            flex-direction: column
+
+            li
+                max-height: 60px
+                margin: 0 auto
+                width: 60%
+                a
+                    font-size: 20px
+    .menu
+        &__humburger
+            width: 25px
+            height: 20px
+            display: block
+            position: absolute
+            left: 20px
+            top: 20px
+            z-index: 7
+            &_active
+                span
+                    &:nth-child(1)
+                        transform: rotate(-30deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: rotate(30deg)
+                        margin-top: -2px
+            span
+                background: white
+                height: 2px
+                width: 100%
+                display: block
+                margin-top: 2px
+                transition: 0.5s all
+                &:nth-child(1)
+                    margin-top: 0px
+
+        &__wrapper
+
+            width: 80%
+            height: 100%
+            background: rgba(0,0,0,0.8)
+            position: absolute
+            left: -100%
+            z-index: 5
+            top: 0
+            flex-direction: column
+            justify-content: center
+            transition: 0.5s all
+
+    header
+        height: 680px
+        h3
+            margin-top: 180px
+        h1
+            font-size: 60px
+    .header
+        &__table
+            display: none
+        &__feed
+            right: 9px
+            &_item
+                width: 40px
+                height: 40px
+
+            &_icon
+                font-size: 20px
+    .about_us
+        min-height: 800px
+        &__title
+            margin-top: 0px
+
+        &__descr
+            width: 100%
+        &__img
+            width: 250px
+            height: 250px
+        &__sqr
+            width: 150px
+            height: 150px
+        &__imgs
+            margin-left: 0
+@media ( max-width:425px  )
+    .header
+        &__feed
+            right: 0
+        &__down
+            margin-top: 40px
+    header
+        height: 600px
+        h1
+            font-size: 50px
+    .about_us
+
+        &__title
+            font-size: 20px
+
+        &__img
+            width: 200px
+            height: 200px
+        &__sqr
+            width: 100px
+            height: 100px
+        &__text
+            font-size: 12px
